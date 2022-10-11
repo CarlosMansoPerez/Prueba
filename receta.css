@@ -1,0 +1,62 @@
+/* hoja de estilo de receta de tortilla de patata*/
+@font-face {
+    font-family:'tortilla';
+    src: url('../fonts/AgeoPersonalUse-Medium.otf');
+    font-family: 'tortilla2';
+    src: url('../fonts/WhiteDreamPERSONALUSEONLY-Regular.otf')
+}
+#titulo{
+    font-family: 'tortilla2';
+    src: url('../fonts/WhiteDreamPERSONALUSEONLY-Regular.otf')
+}
+body{
+background-image: url('../images/fondo.jpg');
+font-family:tortilla;
+margin: 0;
+padding: 0;
+}
+#container{
+    font-family: tortilla;
+width: 80%;
+background-color: rgb(250, 223, 173);
+margin: auto;
+padding: 9px;
+}
+#container h1 {
+text-align: center;
+}
+#container h2 {
+    font-family: tortilla2;
+    background-color: rgb(214, 65, 45);
+    background-position: cover;
+    padding-left: 10px;
+}
+#container dl dt {
+    font-weight: bold;
+}
+#container iframe {display: block;
+    margin: auto;
+}
+
+.fa {
+color:rgb(250, 223, 173);
+
+}
+
+#fototortilla {
+    width: 50%;
+
+}
+
+/*media queries para dispositivos de ancho escaso */
+
+@media only screen and (max-width:600px) /* Es igual a decir: "si mi pantalla tiene -600px" */
+#container {
+    width: 100%;
+}
+    #fototortilla {
+width: 60%;
+display: block;
+margin: auto;
+    }
+
